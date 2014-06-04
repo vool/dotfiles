@@ -1,0 +1,26 @@
+[user]
+	name = Keith
+	email = keith@vool.ie
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = vi
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1029x837+261+61
+	history-view-vpane-position = 561
+	file-view-vpane-position = 725
+	main-window-view = HistoryView
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	pager = true
+[merge]
+	ff = false
