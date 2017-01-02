@@ -1,5 +1,10 @@
 # dotfiles
 
+## Files
+
+.gitconfig
+
+.vimrc
 
 ###  Usage
 
