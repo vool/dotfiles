@@ -6,6 +6,8 @@
 
 .vimrc
 
+.bash_aliases
+
 ###  Usage
 
 Go home
