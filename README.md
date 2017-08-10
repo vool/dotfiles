@@ -22,5 +22,5 @@ create symbolic links
 
 eg
 
-``ln -s /home/keith/dotfiles/gitconfig .gitconfig``
+``ln -s /home/keith/dotfiles/.gitconfig .gitconfig``
 
