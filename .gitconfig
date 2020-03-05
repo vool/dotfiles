@@ -27,6 +27,7 @@
 [alias]
 	delete-merged-branches = "!f() { git checkout --quiet master && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
 	tree = "log --graph --oneline --all --decorate"
+	tree-local = "log --graph --oneline --branches"
 	todo = grep -E 'FIXME|TODO'
 	fix-staged = "!git diff-index --cached --name-status HEAD | grep -ve '^D' | cut -f2 | xargs -n1 php-cs-fixer fix"
 [branch]
