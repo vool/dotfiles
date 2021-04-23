@@ -32,3 +32,5 @@
 	fix-staged = "!git diff-index --cached --name-status HEAD | grep -ve '^D' | cut -f2 | xargs -n1 php-cs-fixer fix"
 [branch]
 	autosetuprebase = always
+[init]
+	defaultBranch = main
