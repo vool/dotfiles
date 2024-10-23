@@ -30,6 +30,7 @@
 	tree-local = "log --graph --oneline --branches"
 	todo = grep -E 'FIXME|TODO'
 	fix-staged = "!git diff-index --cached --name-status HEAD | grep -ve '^D' | cut -f2 | xargs -n1 php-cs-fixer fix"
+	checkitout = "!f(){ git branch --sort=-committerdate | grep $1 | head -n 1 | xargs git checkout; }; f"
 [branch]
 	autosetuprebase = always
 [init]
