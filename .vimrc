@@ -13,3 +13,9 @@ catch
 endtry
 
 set background=dark
+
+set hls
+set ic
+set is
+set nu
+"set noswf
